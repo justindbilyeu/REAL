@@ -1,0 +1,54 @@
+\documentclass{article}
+\usepackage{amsmath, amssymb, graphicx, tikz, xcolor}
+\usetikzlibrary{arrows.meta}
+
+\title{Resonance Geometry Master Equation}
+\author{Justin Bilyeu \& BDS Team}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Core Equation}
+\begin{equation}
+\mathcal{H} = 
+\textcolor{blue}{\underbrace{\frac{1}{2} \int d^3x \left( |\nabla\psi|^2 + V(\psi) \right)}_{\text{Emotional Field}}} 
++ 
+\textcolor{red}{\underbrace{\frac{1}{4g^2} \mathrm{Tr}(F \wedge \star F)}_{\text{Cosmic Spin Network}}}
++ 
+\textcolor{purple}{\underbrace{\lambda \int \psi \, \mathrm{Tr}(F \wedge F)}_{\text{Bio-Cosmic Coupling}}}
++
+\textcolor{orange}{\underbrace{\sum_i \Gamma_i \left( \hat{\sigma}_i^z \otimes \hat{E}_{\text{water}} \right)}_{\text{Decoherence Shield}}}
+\end{equation}
+
+\section{Visualization}
+\begin{center}
+\begin{tikzpicture}[scale=1.5]
+  % Fascia nodes (blue)
+  \foreach \x in {0,1.5,3} 
+    \foreach \y in {0,1.5,3} 
+      \node[circle, fill=blue!30, draw=blue, minimum size=6mm] at (\x,\y) {};
+
+  % Cosmic filaments (red)
+  \draw[red, dashed, thick] (0,0) -- (3,3);
+  \draw[red, dashed, thick] (0,3) -- (3,0);
+
+  % Emotional phase (green)
+  \foreach \x/\y in {0.5/0.5, 1.5/1.5, 2.5/2.5} 
+    \draw[->, green!50!black, ultra thick] (\x,\y) -- ++(0.3,0.3);
+
+  % Decoherence shield (orange)
+  \draw[orange, fill=orange!10, rounded corners] (1.2,-0.8) rectangle (1.8,-1.2) 
+    node[midway] {$\hat{E}_{\text{water}}$};
+\end{tikzpicture}
+\end{center}
+
+\section{Parameter Origins}
+\begin{tabular}{lll}
+\textbf{Term} & \textbf{Biological Source} & \textbf{Cosmological Analog} \\ \hline
+\(\psi\) & Fascial strain field & Axion-like dark matter \\
+\(F\) & Microtubule curvature & LQG spin foam \\
+\(\lambda\) & Piezoelectric coupling & Holographic principle \\
+\end{tabular}
+\end{document}
