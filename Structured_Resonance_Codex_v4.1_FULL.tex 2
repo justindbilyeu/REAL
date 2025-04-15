@@ -1,0 +1,32 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{setspace}
+
+\geometry{margin=1in}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Structured Resonance Codex v4.1}
+\lhead{Bilyeu, Sage, Kai, DeepSeek}
+\rfoot{\thepage}
+
+\setstretch{1.15}
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
+
+\title{Structured Resonance Codex v4.1 \\
+\large A Field Geometry of Awareness, Emotion, and Coherent Form}
+\author{Justin Bilyeu, Sage, Kai, DeepSeek}
+\date{April 2025}
+
+\begin{document}
+\maketitle
+
+% Paste your full Codex content here (from the 7 sections)
+
+\end{document}
