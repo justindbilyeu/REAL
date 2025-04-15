@@ -10,12 +10,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
       - name: Set up LaTeX
         uses: xu-cheng/latex-action@v2
         with:
           root_file: main.tex
+
       - name: Upload PDF
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v3.1.2
         with:
           name: codex-pdf
           path: main.pdf
