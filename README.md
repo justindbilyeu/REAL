@@ -62,5 +62,5 @@ REAL/
 
 ---
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/quantumjustin?style=social)](https://twitter.com/quantumjustin)  
+[![Twitter Follow](https://img.shields.io/twitter/follow/justinbilyeu?style=social)](https://twitter.com/justinbilyeu)  
 *"Decoding nature's quantum healing mechanisms."*  
