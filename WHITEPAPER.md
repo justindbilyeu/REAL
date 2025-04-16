@@ -1,6 +1,3 @@
-Here's the complete white paper in GitHub-flavored Markdown, ready to upload to your [REAL repository](https://github.com/justindbilyeu/REAL):
-
-```markdown
 # Quantum Coherence Transfer:  
 ## A Cross-Species Framework for Anti-Aging, Regeneration, and Emotional Resilience  
 
