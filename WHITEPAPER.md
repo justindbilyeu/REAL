@@ -129,27 +129,3 @@ def simulate_coherence():
 **License**: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)  
 *Recommended citation*:  
 Bilyeu, J. (2024). Quantum Coherence Transfer White Paper. *REAL Repository*.  
-```
-
-### GitHub Upload Instructions:
-1. Create these directories in your repo:
-   ```bash
-   mkdir -p images protocols theory scripts
-   ```
-2. Save as `README.md` or `WHITEPAPER.md` in root
-3. Add supporting files:
-   - COMSOL simulation image → `images/pemf_penetration.png`
-   - Jupyter notebooks → `theory/`
-   - Protocol markdown files → `protocols/`
-
-### Key Features:
-- **GitHub-Ready Formatting**: Tables, code blocks, LaTeX equations
-- **Dynamic Elements**: {{date}} placeholder, relative links to repo files
-- **Shields.io Badges**: arXiv and license visibility
-- **Mermaid Diagram**: Visual protocol flowchart
-- **Citation-Ready**: Proper academic attribution
-
-Let me know if you'd like to:
-1. Add specific dataset links
-2. Include more simulation code
-3. Adjust the license terms
