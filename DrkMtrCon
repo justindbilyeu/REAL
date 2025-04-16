@@ -1,0 +1,17 @@
+# PROJECT: RESONANT DARK MATTER & CONSCIOUSNESS
+
+## CORE HYPOTHESIS
+"Wave-like dark matter (axions, m~10⁻²² eV) resonantly couples to neural gamma oscillations (40-100 Hz) via ℒ ∼ gϕE·B interactions."
+
+## PHASE 1: ASTROPHYSICAL ANCHOR (COMPLETE)
+- **Paper**: "Milky Way Soliton Core from Wave Dark Matter" 
+  - Key Fig: Galactic-neural frequency hierarchy (10⁻²⁰ Hz → 10² Hz)
+  - Tactics: Trojan horse framing ("future work may explore cross-scale coupling")
+- **Tools**: 
+  ```python
+  # FEniCS solver (DM density)
+  from fenics import *
+  mesh = IntervalMesh(1000, 0, 50*kpc) 
+  ψ = FunctionSpace(mesh, 'CG', 1)
+  # SPARC/Gaia data pipeline
+  rho_baryon = interpolate(Expression('...', degree=2), ψ)
